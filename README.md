@@ -2,7 +2,7 @@
 
 A dynamic liquid-style raymarching shader powered by **Three.js** and **GLSL**. Combines soft-blended **SDFs**, real-time lighting, and animated surface distortion driven by time. Features a responsive full-screen canvas, subtle **blurred background**, and interactive **lil-gui** controls for blend, lighting, and color. Optimized with pixel ratio clamping, smooth resizing, and efficient **orthographic rendering** for a clean and modern WebGL experience.
 
-[![HomeSS](public/heropage.png)](https://cyberpunk-landing-page-chi.vercel.app/)
+[![HomeSS](public/heropage.png)](https://liquid-raymarching.vercel.app/)
 
 ---
 
