@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./logo.png">
+  <title>Liquid Raymarching</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body class="m-0 p-0 overflow-hidden h-screen w-screen relative">
+
+  <!-- Loader -->
+  <div id="loader" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
+    <div class="w-12 h-12 border-4 border-[#6B6E72] border-t-transparent rounded-full animate-spin"></div>
+  </div>
+
+  <!-- Background Image -->
+  <div class="absolute inset-0 z-0 overflow-hidden">
+    <img src="./background.jpg" alt="Background" class="w-full h-full object-cover blur-3xl scale-110" />
+  </div>
+
+  <!-- WebGL Canvas -->
+  <canvas id="canvas" class="absolute top-0 left-0 w-full h-full z-10"></canvas>
+
+  <!-- Footer -->
+  <footer
+    class="absolute bottom-0 left-0 w-full z-20 flex flex-col md:flex-row items-start md:items-end justify-between px-6 py-4 text-sm text-black font-['Figtree'] gap-4 md:gap-0">
+    <div class="md:mr-200">
+      <h1 class="mb-2 underline">Exp05: liquid-raymarching</h1>
+      <p>
+        A dynamic liquid-style raymarching shader using <b>Three.js</b> and <b>GLSL</b>, featuring soft <b>SDFs</b>,
+        animated distortion, real-time lighting, and <b>lil-gui</b> controls — all within a responsive canvas and optimized <b>orthographic rendering</b>.
+      </p>
+    </div>
+    <div class="flex items-center space-x-4 self-end md:self-auto">
+      <a href="https://www.x.com/rikiKDev" class="hover:underline">X</a>
+      <a href="https://www.instagram.com/rikidev_" class="hover:underline">IG</a>
+      <a href="https://www.linkedin.com/in/riki-kashyap" class="hover:underline">LN</a>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
