@@ -22,6 +22,11 @@ canvas {
   visibility: hidden;
 }
 
+::selection {
+  background: black;
+  color: white;
+}
+
 @font-face {
   font-family: 'Figtree';
   src: url('/Fonts/Figtree-Light.ttf') format('truetype');
