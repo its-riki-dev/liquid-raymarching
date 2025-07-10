@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./logo.png">
-  <title>Liquid Raymarching</title>
+  <title>Raymarching</title>
   <link rel="stylesheet" href="/src/style.css" />
 </head>
 
@@ -24,25 +24,24 @@
   <!-- WebGL Canvas -->
   <canvas id="canvas" class="absolute top-0 left-0 w-full h-full z-10"></canvas>
 
-  <!-- Footer -->
+    <!-- Footer -->
   <footer
-    class="absolute bottom-0 left-0 w-full z-20 flex flex-col md:flex-row items-center justify-between px-6 py-4 text-sm text-black font-['Figtree'] gap-4 md:gap-0 mb-4 md:mb-0">
-
-    <div class="flex flex-row items-center justify-between w-full md:block md:w-auto">
-      <h1 class="md:underline">Exp05: liquid-raymarching</h1>
-      <div class="flex items-center space-x-4 md:hidden">
-        <a href="https://www.x.com/rikiKDev">X</a>
-        <a href="https://www.instagram.com/rikidev_">IG</a>
-        <a href="https://www.linkedin.com/in/riki-kashyap">LN</a>
+    class="absolute bottom-0 left-0 w-full z-20 flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 py-4 text-sm text-black font-['Figtree'] gap-4 md:gap-0 mb-4 md:mb-0">
+    <div class="flex flex-col md:flex-row md:items-start md:justify-between w-full">
+      <div class="flex flex-col md:block text-center md:text-left w-full">
+        <h1 class="md:underline">Exp06: raymarching</h1>
+        <p class="hidden sm:block mt-2 md:pr-32 lg:pr-[95vh]">
+          A dynamic raymarching shader built with <b>Three.js</b> and <b>GLSL</b>, featuring soft SDFs, animated distortion, real-time lighting, and responsive orthographic rendering.
+        </p>
       </div>
-      <p class="hidden md:block mt-2 pr-200">
-        A dynamic liquid-style raymarching shader using <b>Three.js</b> and <b>GLSL</b>, featuring soft <b>SDFs</b>,
-        animated distortion, real-time lighting, and <b>lil-gui</b> controls — all within a responsive canvas and
-        optimized <b>orthographic rendering</b>.
-      </p>
+      <!-- Social links mobile + tablet -->
+      <div class="flex items-center justify-center space-x-4 md:hidden mt-2">
+        <a href="https://www.x.com/rikiKDev" class="hover:underline">X</a>
+        <a href="https://www.instagram.com/rikidev_" class="hover:underline">IG</a>
+        <a href="https://www.linkedin.com/in/riki-kashyap" class="hover:underline">LN</a>
+      </div>
     </div>
-
-    <!-- Social links for desktop -->
+    <!-- Social links desktop -->
     <div class="hidden md:flex items-center space-x-4 self-end">
       <a href="https://www.x.com/rikiKDev" class="hover:underline">X</a>
       <a href="https://www.instagram.com/rikidev_" class="hover:underline">IG</a>
