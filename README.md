@@ -1,6 +1,6 @@
 # Liquid Raymarching
 
-A dynamic liquid-style raymarching shader powered by **Three.js** and **GLSL**. Combines soft-blended **SDFs**, real-time lighting, and animated surface distortion driven by time. Features a responsive full-screen canvas, subtle **blurred background**, and interactive **lil-gui** controls for blend, lighting, and color. Optimized with pixel ratio clamping, smooth resizing, and efficient **orthographic rendering** for a clean and modern WebGL experience.
+A dynamic raymarching shader powered by **Three.js** and **GLSL**. Combines soft-blended **SDFs**, real-time lighting, and animated surface distortion driven by time. Features a responsive full-screen canvas, subtle **blurred background**, and interactive **lil-gui** controls for blend, lighting, and color. Optimized with pixel ratio clamping, smooth resizing, and efficient **orthographic rendering** for a clean and modern WebGL experience.
 
 [![HomeSS](public/heropage.png)](https://liquid-raymarching.vercel.app/)
 
@@ -8,7 +8,7 @@ A dynamic liquid-style raymarching shader powered by **Three.js** and **GLSL**. 
 
 ## ✨ Features
 
-* 🌊 **Raymarched Liquid Effect** rendered with soft-blended **Signed Distance Fields (SDFs)** for smooth, organic shapes
+* 🌊 **Raymarched Effect** rendered with soft-blended **Signed Distance Fields (SDFs)** for smooth, organic shapes
 * 💡 **Real-Time Lighting** using customizable light color, intensity, and specular highlights
 * 🌀 **Animated Distortion** driven by `iTime` for continuous fluid motion and surface warping
 * 🎛️ **Interactive Controls** via **lil-gui** to tweak blend, light strength, and color in real time
